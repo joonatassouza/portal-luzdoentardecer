@@ -1,0 +1,10 @@
+.customViewer {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #707070;
+}
+
+.customCanvas {
+  height: calc(768px * 1.6);
+  width: 768px;
+}

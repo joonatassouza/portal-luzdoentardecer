@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 21.838 20.31">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-4);
+      }
+    </style>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#188091"/>
+      <stop offset="0.305" stop-color="#0f8091"/>
+      <stop offset="1" stop-color="#008193"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Group_16" data-name="Group 16" transform="translate(-5063.231 -6652.307)">
+    <g id="Group_15" data-name="Group 15">
+      <path id="Path_51" data-name="Path 51" class="cls-1" d="M5077.275,6666.166h-6.251a.821.821,0,0,0,0,1.642h6.251a.821.821,0,1,0,0-1.642Z"/>
+      <path id="Path_52" data-name="Path 52" class="cls-2" d="M5083.286,6657.2h-2.2v-4.075a.821.821,0,0,0-.821-.82h-12.24a.822.822,0,0,0-.821.82v4.075h-2.195a1.785,1.785,0,0,0-1.783,1.783v7.256a1.785,1.785,0,0,0,1.783,1.783h2.195v3.772a.823.823,0,0,0,.821.821h12.24a.823.823,0,0,0,.821-.821v-3.772h2.2a1.785,1.785,0,0,0,1.783-1.783v-7.256A1.785,1.785,0,0,0,5083.286,6657.2Zm-14.435,13.773v-5.7h10.6v5.7Zm0-13.773v-3.254h10.6v3.254Zm11.419,6.43h-12.24a.822.822,0,0,0-.821.821v1.929h-2.195a.141.141,0,0,1-.141-.141v-7.256a.141.141,0,0,1,.141-.141h18.272a.141.141,0,0,1,.141.141v7.256a.141.141,0,0,1-.141.141h-2.2v-1.929A.822.822,0,0,0,5080.27,6663.632Z"/>
+      <path id="Path_53" data-name="Path 53" class="cls-3" d="M5080.27,6660h-1.836a.821.821,0,1,0,0,1.642h1.836a.821.821,0,0,0,0-1.642Z"/>
+      <path id="Path_54" data-name="Path 54" class="cls-4" d="M5077.275,6668.441h-6.251a.821.821,0,0,0,0,1.642h6.251a.821.821,0,1,0,0-1.642Z"/>
+    </g>
+  </g>
+</svg>
