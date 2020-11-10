@@ -64,7 +64,7 @@ export const Container = styled.div`
     border-top: 6px solid #000;
     border-left: 6px solid #000;
     border-right: 6px solid #000;
-    z-index: -1;
+    z-index: 0;
   }
 
   &:before {
@@ -83,6 +83,7 @@ export const Column = styled.div`
   height: 100%;
   flex: 1;
   position: relative;
+  z-index: 5;
 
   &:first-child {
     display: flex;
