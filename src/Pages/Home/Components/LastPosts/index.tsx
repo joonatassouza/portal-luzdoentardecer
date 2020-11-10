@@ -1,4 +1,5 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 
 import pregacao1Jpg from '../../../../assets/pregacao1.jpg';
 import pregacao2Jpg from '../../../../assets/pregacao2.jpg';
@@ -20,31 +21,33 @@ import {
 } from './styles';
 
 const LastPosts: React.FC = () => {
+  const history = useHistory();
+
   return (
     <Wrapper>
       <Container>
         <Cards>
-          <Card thumbnail={pregacao1Jpg}>
+          <Card thumbnail={pregacao1Jpg} onClick={() => history.push('/video')}>
             <Title>Live com pastor Paulino</Title>
             <Subtitle>Pastor Josué Mendes</Subtitle>
           </Card>
-          <Card thumbnail={pregacao2Jpg}>
+          <Card thumbnail={pregacao2Jpg} onClick={() => history.push('/video')}>
             <Title>Live com ministros</Title>
             <Subtitle>Pastor Josué Mendes</Subtitle>
           </Card>
-          <Card thumbnail={pregacao3Jpg}>
+          <Card thumbnail={pregacao3Jpg} onClick={() => history.push('/video')}>
             <Title>Live com pastor Raimundo Maia</Title>
             <Subtitle>Pastor Josué Mendes</Subtitle>
           </Card>
-          <Card thumbnail={pregacao4Jpg}>
+          <Card thumbnail={pregacao4Jpg} onClick={() => history.push('/video')}>
             <Title>A Rainha de Sabá</Title>
             <Subtitle>Pastor Raimundo Maia</Subtitle>
           </Card>
-          <Card thumbnail={pregacao5Jpg}>
+          <Card thumbnail={pregacao5Jpg} onClick={() => history.push('/video')}>
             <Title>Culto de domingo</Title>
             <Subtitle>Pastor Raimundo Maia</Subtitle>
           </Card>
-          <Card thumbnail={pregacao6Jpg}>
+          <Card thumbnail={pregacao6Jpg} onClick={() => history.push('/video')}>
             <Title>Live com irmã Sueli Maia</Title>
             <Subtitle>Pastor Josué Mendes</Subtitle>
           </Card>

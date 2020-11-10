@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { useHistory } from 'react-router-dom';
 import playSvg from '../../../../assets/play.svg';
 import playBSvg from '../../../../assets/play-b.svg';
 import youngBranhamPng from '../../../../assets/youngBranham.png';
@@ -19,6 +20,8 @@ import {
 } from './styles';
 
 const SpecialContent: React.FC = () => {
+  const history = useHistory();
+
   return (
     <Wrapper>
       <Container>
@@ -28,7 +31,7 @@ const SpecialContent: React.FC = () => {
             <strong>Livro Gerações</strong>
             <span>Relembrando a vida de um Profeta</span>
             <span>por Angela Smith</span>
-            <button type="button">
+            <button type="button" onClick={() => history.push('/post')}>
               <img src={playBSvg} alt="go" />
             </button>
           </Card1>
@@ -36,7 +39,7 @@ const SpecialContent: React.FC = () => {
             <div>
               <img src={branhamPng} alt="Os Atos do Profeta" />
               <section>
-                <button type="button">
+                <button type="button" onClick={() => history.push('/post')}>
                   <img src={playBSvg} alt="go" />
                 </button>
                 <strong>
@@ -64,7 +67,7 @@ const SpecialContent: React.FC = () => {
             <div>
               <img src={mariaPng} alt="Cartas de Andina" />
               <section>
-                <button type="button">
+                <button type="button" onClick={() => history.push('/post')}>
                   <img src={playBSvg} alt="go" />
                 </button>
                 <strong>
